@@ -1,0 +1,9 @@
+module.exports = {
+    "endOfLine": "auto",
+    "semi": true,
+    "singleQuote": false,
+    "tabWidth": 2,
+    "trailingComma": "es5",
+    "printWidth": 120,
+    "arrowParens": "always"
+  }
