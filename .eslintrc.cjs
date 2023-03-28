@@ -24,6 +24,7 @@ module.exports = {
   },
   plugins: ["@typescript-eslint", "react", "prettier", "react-hooks"],
   rules: {
+    "react/jsx-indent": ["error", 2],
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
     "comma-dangle": ["error", "only-multiline"],

@@ -1,0 +1,21 @@
+.cell-component {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background-color: aqua;
+}
+
+.selected {
+  background-color: violet;
+}
+
+.available {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background-color: #22c022;
+}
